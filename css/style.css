@@ -157,6 +157,7 @@ img {
   padding-bottom: 48px;
 }
 .main-title-button {
+  min-width: 169px;
   margin-left: auto;
   margin-right: auto;
   height: 56px;
