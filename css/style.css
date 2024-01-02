@@ -58,8 +58,11 @@ img {
 /*------------------- HEADER ---------------*/
 .header .container {
   display: flex;
+}
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -266,7 +269,7 @@ img {
 .portfolio-section .section {
 }
 .portfolio-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   font-family: "Roboto";
@@ -321,6 +324,8 @@ img {
   padding-bottom: 100px;
 }
 .footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
